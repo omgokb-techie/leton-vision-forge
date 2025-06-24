@@ -164,7 +164,7 @@ export const CashFlowChart = () => {
               stroke="#3b82f6" 
               strokeWidth={3}
               dot={{ fill: '#3b82f6', strokeWidth: 2, r: 5 }}
-              strokeDasharray={(dataPoint: any) => dataPoint.projected ? "5 5" : "0"}
+              strokeDasharray="0"
             />
           </ComposedChart>
         </ResponsiveContainer>
